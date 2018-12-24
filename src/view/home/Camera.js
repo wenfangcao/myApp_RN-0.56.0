@@ -4,6 +4,7 @@ import {
   StyleSheet,
   View,
   Text,
+  Animated,
 } from 'react-native';
 import Styles from '../../style/style'
 import TitleBar from '../../component/TitleBar'
