@@ -13,7 +13,8 @@ import Mine from './mine/Mine'
 import px2dr from '../container/px2dr'
 import common from '../container/common'
 import font from '../container/font'
-import { ifIphoneX } from '../container/isIphoneX'
+// import { ifIphoneX } from '../container/isIphoneX'
+import { ifIphoneX } from 'react-native-iphone-x-helper'
 
 export default class Nav extends Component {
   constructor(props) {
@@ -28,8 +29,8 @@ export default class Nav extends Component {
         require('../images/equipment_white.png'),
         require('../images/wallet.png'),
         require('../images/wallet_white.png'),
-        require('../images/community.png'),
-        require('../images/community_white.png'),
+        require('../images/wallet.png'),
+        require('../images/wallet_white.png'),
         require('../images/more.png'),
         require('../images/more_white.png'),
     ]

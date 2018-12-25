@@ -9,7 +9,8 @@ import {
 } from 'react-native'
 import Styles from '../style/style.js'
 import px2dr from '../container/px2dr.js'
-import { ifIphoneX } from '../container/isIphoneX'
+// import { ifIphoneX } from '../container/isIphoneX'
+import { ifIphoneX } from 'react-native-iphone-x-helper'
 
 export default class TitleBar extends Component {
   return() {

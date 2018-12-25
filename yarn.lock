@@ -4814,6 +4814,11 @@ react-native-image-picker@^0.27.2:
   resolved "http://registry.npm.taobao.org/react-native-image-picker/download/react-native-image-picker-0.27.2.tgz#c44195feb1a4855eead36fadacc8b82828329b2a"
   integrity sha1-xEGV/rGkhV7q02+trMi4KCgymyo=
 
+react-native-iphone-x-helper@^1.2.0:
+  version "1.2.0"
+  resolved "http://registry.npm.taobao.org/react-native-iphone-x-helper/download/react-native-iphone-x-helper-1.2.0.tgz#9f8a376eb00bc712115abff4420318a0063fa796"
+  integrity sha1-n4o3brALxxIRWr/0QgMYoAY/p5Y=
+
 react-native-safe-area-view@0.11.0:
   version "0.11.0"
   resolved "http://registry.npm.taobao.org/react-native-safe-area-view/download/react-native-safe-area-view-0.11.0.tgz#4f3dda43c2bace37965e7c6aef5fc83d4f19d174"
