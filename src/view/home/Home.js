@@ -15,13 +15,28 @@ import { bindActionCreators } from 'redux'
 import TitleBar from '../../component/TitleBar'
 import common from '../../container/common'
 import SideMenu from 'react-native-side-menu'
+import TabBar from "react-native-tabs-top"
 
 const TableView = requireNativeComponent('TableView', null)
 class Home extends Component {
   constructor() {
     super()
     this.state = {
-      scroe: 0
+      scroe: 0,
+      tablist:[
+        {id:1,name:"tab1"},
+        {id:2,name:"tab1"},
+        {id:3,name:"tab1"},
+        {id:4,name:"tab1"},
+        {id:5,name:"tab1"},
+        {id:6,name:"tab1"},
+        {id:7,name:"tab1"},
+        {id:8,name:"tab1"},
+        {id:9,name:"tab1"},
+        {id:10,name:"tab1"},
+        {id:11,name:"tab1"},
+        {id:12,name:"tab1"},
+      ]
     }
   }
 
@@ -64,6 +79,10 @@ class Home extends Component {
       
         <View>
           <TitleBar navigation={this.props.navigation} title="home"></TitleBar>
+          <TabBar ref={e => this.tabs = e}
+            index={this.state.index}
+            data={this.state.tablist}
+            onChange={index => {}} />
           <View>
             <Button onPress={() => this.showNotifi()} title="show Notification"></Button>
             <Button onPress={() => this.showNSLog()} title="show NSlog"></Button>

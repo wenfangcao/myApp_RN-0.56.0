@@ -4855,6 +4855,11 @@ react-native-tab-view@^1.0.0:
   dependencies:
     prop-types "^15.6.1"
 
+react-native-tabs-top@^0.7.3:
+  version "0.7.3"
+  resolved "http://registry.npm.taobao.org/react-native-tabs-top/download/react-native-tabs-top-0.7.3.tgz#2422c6e39aa9cb758a7c655357d8751462cd6e4a"
+  integrity sha1-JCLG45qpy3WKfGVTV9h1FGLNbko=
+
 react-native@0.56.0:
   version "0.56.0"
   resolved "http://registry.npm.taobao.org/react-native/download/react-native-0.56.0.tgz#66686f781ec39a44376aadd4bbc55c8573ab61e5"

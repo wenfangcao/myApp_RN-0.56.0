@@ -11,7 +11,7 @@ const RootNavigator = createStackNavigator({
     screen: Tab,
     navigationOptions:()=>{
       return {
-        header:null
+        header: null
       }
     }
   },
@@ -19,7 +19,7 @@ const RootNavigator = createStackNavigator({
     screen: Register,
     navigationOptions:()=>{
       return {
-        header:null
+        header: null
       }
     }
   },
@@ -27,7 +27,7 @@ const RootNavigator = createStackNavigator({
     screen: GetCode,
     navigationOptions:()=>{
       return {
-        header:null
+        header: null
       }
     }
   },
@@ -35,7 +35,7 @@ const RootNavigator = createStackNavigator({
     screen: Register,
     navigationOptions:()=>{
       return {
-        header:null
+        header: null
       }
     }
   },
@@ -43,7 +43,7 @@ const RootNavigator = createStackNavigator({
     screen: Login,
     navigationOptions:()=>{
       return {
-        header:null
+        header: null
       }
     }
   },
@@ -51,7 +51,7 @@ const RootNavigator = createStackNavigator({
     screen: ResetPwd,
     navigationOptions:()=>{
       return {
-        header:null
+        header: null
       }
     }
   },

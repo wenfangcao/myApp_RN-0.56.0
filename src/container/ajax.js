@@ -9,7 +9,6 @@ import netInfo from './netInfo'
 async function ajax(tar_url, method, params = ''){
     common.showLoading()
     const noNetwork = await netInfo().then(res => {
-        console.log(res)
         return res
     })
     if (noNetwork) {
@@ -34,8 +33,6 @@ async function ajax(tar_url, method, params = ''){
             header.isMobile = true
         }
     }).catch(err => {});
-    console.log('header')
-    console.log(header)
     if(params == ''){   // no params
         return new Promise(function (resolve, reject) {
             fetch(url, {
@@ -58,7 +55,7 @@ async function ajax(tar_url, method, params = ''){
                     common.hidLoading()
                 })
         })
-    }else{
+    } else {
         return new Promise(function (resolve, reject) {
             fetch(url, {
                 method: method,
