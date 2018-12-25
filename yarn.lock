@@ -4809,6 +4809,11 @@ react-native-easy-toast@^1.1.0:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-image-picker@^0.27.2:
+  version "0.27.2"
+  resolved "http://registry.npm.taobao.org/react-native-image-picker/download/react-native-image-picker-0.27.2.tgz#c44195feb1a4855eead36fadacc8b82828329b2a"
+  integrity sha1-xEGV/rGkhV7q02+trMi4KCgymyo=
+
 react-native-safe-area-view@0.11.0:
   version "0.11.0"
   resolved "http://registry.npm.taobao.org/react-native-safe-area-view/download/react-native-safe-area-view-0.11.0.tgz#4f3dda43c2bace37965e7c6aef5fc83d4f19d174"

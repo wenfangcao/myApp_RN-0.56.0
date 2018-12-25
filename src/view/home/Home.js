@@ -15,7 +15,6 @@ import { bindActionCreators } from 'redux'
 import TitleBar from '../../component/TitleBar'
 import common from '../../container/common'
 import SideMenu from 'react-native-side-menu'
-import Camera from './Camera'
 
 const TableView = requireNativeComponent('TableView', null)
 class Home extends Component {
@@ -72,7 +71,6 @@ class Home extends Component {
             <Text onPress={ () => this.props.dispatch.changeText('212') }>{this.props.value.score}</Text>
             <Text>{this.state.score}</Text>
             {/* <TableView/> */}
-            <Camera/>
           </View>
         </View>
       </SideMenu>

@@ -7,14 +7,6 @@ import Register from './login/register/register'
 import Binding from './equipment/binding'
 
 const RootNavigator = createStackNavigator({
-  // binding: {
-  //   screen: Binding,
-  //   navigationOptions:()=>{
-  //     return {
-  //       header:null
-  //     }
-  //   }
-  // },
   tab: {
     screen: Tab,
     navigationOptions:()=>{
