@@ -41,6 +41,16 @@
 		37F1F7AC21D32E8100B37A9D /* Qcodesound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37F1F7AB21D32E8100B37A9D /* Qcodesound.caf */; };
 		37F1F7B021D3306500B37A9D /* frame_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F1F7AF21D3306500B37A9D /* frame_icon.png */; };
 		37F1F7BD21D3516D00B37A9D /* PushNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1F7BC21D3516D00B37A9D /* PushNative.m */; };
+		37F1F7C521D36A6800B37A9D /* AlicloudUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7C121D36A6700B37A9D /* AlicloudUtils.framework */; };
+		37F1F7C621D36A6800B37A9D /* CloudPushSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7C221D36A6700B37A9D /* CloudPushSDK.framework */; };
+		37F1F7C721D36A6800B37A9D /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7C321D36A6800B37A9D /* UTDID.framework */; };
+		37F1F7C821D36A6800B37A9D /* UTMini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7C421D36A6800B37A9D /* UTMini.framework */; };
+		37F1F7CA21D36BE800B37A9D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7C921D36BE800B37A9D /* libz.tbd */; };
+		37F1F7CC21D36BF200B37A9D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7CB21D36BF200B37A9D /* libresolv.tbd */; };
+		37F1F7CE21D36BFB00B37A9D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7CD21D36BFB00B37A9D /* CoreTelephony.framework */; };
+		37F1F7D021D36C0500B37A9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7CF21D36C0400B37A9D /* SystemConfiguration.framework */; };
+		37F1F7D221D36C1000B37A9D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1F7D121D36C1000B37A9D /* libsqlite3.tbd */; };
+		37F6D72321D398DA00E24419 /* AliyunEmasServices-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37F6D72221D398DA00E24419 /* AliyunEmasServices-Info.plist */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		884C6479F58544508B2D4D25 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F2B1F10D7347ED9A26B95E /* libRNImagePicker.a */; };
@@ -384,6 +394,16 @@
 		37F1F7BB21D3309400B37A9D /* ScanQR4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR4@2x.png"; sourceTree = "<group>"; };
 		37F1F7BC21D3516D00B37A9D /* PushNative.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNative.m; sourceTree = "<group>"; };
 		37F1F7BE21D3518100B37A9D /* PushNative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNative.h; sourceTree = "<group>"; };
+		37F1F7C121D36A6700B37A9D /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlicloudUtils.framework; sourceTree = "<group>"; };
+		37F1F7C221D36A6700B37A9D /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CloudPushSDK.framework; sourceTree = "<group>"; };
+		37F1F7C321D36A6800B37A9D /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		37F1F7C421D36A6800B37A9D /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTMini.framework; sourceTree = "<group>"; };
+		37F1F7C921D36BE800B37A9D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		37F1F7CB21D36BF200B37A9D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		37F1F7CD21D36BFB00B37A9D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		37F1F7CF21D36C0400B37A9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		37F1F7D121D36C1000B37A9D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		37F6D72221D398DA00E24419 /* AliyunEmasServices-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AliyunEmasServices-Info.plist"; sourceTree = "<group>"; };
 		5688CECBA4084F9F8A43F9CD /* RNCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -404,11 +424,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F1F7D221D36C1000B37A9D /* libsqlite3.tbd in Frameworks */,
+				37F1F7D021D36C0500B37A9D /* SystemConfiguration.framework in Frameworks */,
+				37F1F7CE21D36BFB00B37A9D /* CoreTelephony.framework in Frameworks */,
+				37F1F7CC21D36BF200B37A9D /* libresolv.tbd in Frameworks */,
+				37F1F7CA21D36BE800B37A9D /* libz.tbd in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
+				37F1F7C521D36A6800B37A9D /* AlicloudUtils.framework in Frameworks */,
+				37F1F7C821D36A6800B37A9D /* UTMini.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
+				37F1F7C621D36A6800B37A9D /* CloudPushSDK.framework in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
@@ -419,6 +447,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				9D197029B3CA4EC59AEB0720 /* libRNCamera.a in Frameworks */,
 				884C6479F58544508B2D4D25 /* libRNImagePicker.a in Frameworks */,
+				37F1F7C721D36A6800B37A9D /* UTDID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +603,15 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37F1F7D121D36C1000B37A9D /* libsqlite3.tbd */,
+				37F1F7CF21D36C0400B37A9D /* SystemConfiguration.framework */,
+				37F1F7CD21D36BFB00B37A9D /* CoreTelephony.framework */,
+				37F1F7CB21D36BF200B37A9D /* libresolv.tbd */,
+				37F1F7C921D36BE800B37A9D /* libz.tbd */,
+				37F1F7C421D36A6800B37A9D /* UTMini.framework */,
+				37F1F7C121D36A6700B37A9D /* AlicloudUtils.framework */,
+				37F1F7C221D36A6700B37A9D /* CloudPushSDK.framework */,
+				37F1F7C321D36A6800B37A9D /* UTDID.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
@@ -684,6 +722,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				37F6D72221D398DA00E24419 /* AliyunEmasServices-Info.plist */,
 				13B07FAE1A68108700A75B9A /* app */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* appTests */,
@@ -1193,6 +1232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F6D72321D398DA00E24419 /* AliyunEmasServices-Info.plist in Resources */,
 				37F1F7B021D3306500B37A9D /* frame_icon.png in Resources */,
 				37F1F7AC21D32E8100B37A9D /* Qcodesound.caf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
@@ -1380,6 +1420,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = V8K695628S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
@@ -1406,6 +1450,10 @@
 				CODE_SIGN_ENTITLEMENTS = app/app.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8K695628S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
