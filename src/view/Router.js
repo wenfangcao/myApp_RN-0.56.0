@@ -5,8 +5,17 @@ import GetCode from './login/forget/getCode'
 import ResetPwd from './login/forget/resetPwd'
 import Register from './login/register/register'
 import Binding from './equipment/binding'
+import QRCode from './home/QRCode'
 
 const RootNavigator = createStackNavigator({
+  QRCode: {
+    screen: QRCode,
+    navigationOptions:()=>{
+      return {
+        header: null
+      }
+    }
+  },
   tab: {
     screen: Tab,
     navigationOptions:()=>{

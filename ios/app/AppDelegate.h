@@ -11,4 +11,7 @@
 
 @property (nonatomic, strong) UIWindow *window;
 
+// 原生导航栏
+@property (nonatomic, strong) UINavigationController *nav;
+
 @end

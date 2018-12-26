@@ -9,6 +9,7 @@
 
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
+#import "LWQRCodeViewController.h"
 
 @implementation AppDelegate
 
@@ -27,7 +28,12 @@
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
-  self.window.rootViewController = rootViewController;
+  
+  // 用原生导航替代rn
+  _nav = [[UINavigationController alloc]initWithRootViewController:rootViewController];
+  self.window.rootViewController = _nav;
+//  self.window.rootViewController = [[LWQRCodeViewController alloc] init];
+//  self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;
 }
