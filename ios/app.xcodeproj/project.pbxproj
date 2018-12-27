@@ -1437,7 +1437,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xb.app;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.app;
 				PRODUCT_NAME = app;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1467,7 +1467,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xb.app;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.app;
 				PRODUCT_NAME = app;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

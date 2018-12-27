@@ -35,7 +35,11 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string></string>
 	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
 	<string></string>
 	<key>UIBackgroundModes</key>
 	<array>
@@ -55,9 +59,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSCameraUsageDescription</key>
-	<string></string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
 </dict>
 </plist>

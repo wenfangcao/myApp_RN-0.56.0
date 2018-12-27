@@ -10,6 +10,7 @@ import Styles from './../style/style'
 import TabNavigator from 'react-native-tab-navigator';
 import Home from './home/Home'
 import Mine from './mine/Mine'
+import HtmlView from "./webView/WebView"
 import px2dr from '../container/px2dr'
 import common from '../container/common'
 import font from '../container/font'
@@ -40,7 +41,7 @@ export default class Nav extends Component {
         title: font.EUQIPMENT,
         icon: imgs[0],
         selectedIcon: imgs[1],
-        component: <Home navigation={navigation}/>,
+        component: <HtmlView navigation={navigation}/>,
       },
       {
         tab: 'wallet',

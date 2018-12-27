@@ -8,14 +8,14 @@ import Binding from './equipment/binding'
 import QRCode from './home/QRCode'
 
 const RootNavigator = createStackNavigator({
-  QRCode: {
-    screen: QRCode,
-    navigationOptions:()=>{
-      return {
-        header: null
-      }
-    }
-  },
+  // QRCode: {
+  //   screen: QRCode,
+  //   navigationOptions:()=>{
+  //     return {
+  //       header: null
+  //     }
+  //   }
+  // },
   tab: {
     screen: Tab,
     navigationOptions:()=>{

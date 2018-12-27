@@ -37,6 +37,25 @@
 //  self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   [self initCloudPush];
+  NSLog(@"registerAPNS");
+  
+  dispatch_async(dispatch_get_main_queue(), ^{
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
+      // iOS 8 Notifications
+      [application registerUserNotificationSettings:
+       [UIUserNotificationSettings settingsForTypes:
+        (UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge)
+                                         categories:nil]];
+      [application registerForRemoteNotifications];
+    }
+    else {
+      // iOS < 8 Notifications
+      [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+       (UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
+    }
+  });
+  application.applicationIconBadgeNumber = 0;
   return YES;
 }
 
@@ -51,21 +70,7 @@
     }
   }];
 }
-- (void)registerAPNS:(UIApplication *)application {
-  if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
-    // iOS 8 Notifications
-    [application registerUserNotificationSettings:
-     [UIUserNotificationSettings settingsForTypes:
-      (UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge)
-                                       categories:nil]];
-    [application registerForRemoteNotifications];
-  }
-  else {
-    // iOS < 8 Notifications
-    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
-     (UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
-  }
-}
+
 /*
  *  苹果推送注册成功回调，将苹果返回的deviceToken上传到CloudPush服务器
  */
@@ -73,7 +78,10 @@
   [CloudPushSDK registerDevice:deviceToken withCallback:^(CloudPushCallbackResult *res) {
     if (res.success) {
       NSLog(@"upload token success");
-      NSLog(@"%@", res);
+      NSLog(@"%@", deviceToken);
+      NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+//      NSLog(@"deviceToken=%@", deviceToken);
+
       NSLog(@"Register deviceToken success.");
     } else {
       NSLog(@"Register deviceToken failed, error: %@", res.error);
